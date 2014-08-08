@@ -56,6 +56,7 @@ BCOR5mm, % Binding correction
 
 \pagestyle{scrheadings} % Enable the headers specified in this block
 
+\sloppy % solve the problem with overfull boxes (e.g. \href over the hbox)
 
 %----------------------------
 % CUSTOM COMMAND
@@ -142,6 +143,8 @@ The first view of the homepage has a layout scanning time enough low to shows th
 
 \end{itemize}
 
+VIDEO 8:30 mins
+ |||| TODOOO
 
 
 %----------------------------------------------------------------------------------------
@@ -150,7 +153,7 @@ The first view of the homepage has a layout scanning time enough low to shows th
 
 \section{Internal pages}
 Most of internal pages are structured in base of the sublevel: 2\textsuperscript{nd} and 3\textsuperscript{rd} levels have their layout that seems to remain unchanged for the most part of the sublevel.
-All sublevel except the homepage has a \emph{location breadcrumb} located at the bottom of the menu: it shows your position relative to the homepage. Inline with the breadcrumb there's the search bar, the textbox allows 25 chars before to run into the \emph{guillotine effect}\footnote{when textbox are too small so users are forced to use scrollbars to show up the content.}
+All sublevel except the homepage has a \emph{location breadcrumb} located at the bottom of the menu: it shows your position relative to the homepage. Inline with the breadcrumb there's the search bar, the textbox allows 25 chars before to run into the \emph{guillotine effect}\footnote{when textbox are too small so users are forced to use scrollbars to show up the content.}; furthermore the search tool shows a clear \emph{search} button instead to require a click on the hand lens. 
 Every page seems to be reachable from the homepage in most 3 clicks, that's why whe menu is complete and well done. 
 Internal pages are reachable from different pages than the home (\emph{deep linking}) so they have to propose again the compulsory informative axis: \emph{who}/\emph{what}/\emph{where}. The website correctly respect those requirement.
 Below there're the analysis of three subpages, the first one sublevel is 1 and the second and the third are 2\textsuperscript{nd} level.
@@ -165,15 +168,13 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	\label{fig:primapaginainterna} 
 	\end{figure}
 
-	The briefing room page (\href{http://www.whitehouse.gov/briefing-room}{whitehouse.gov/briefing-room}) provides informations about the President's activity, latest events and public statements. The page has a top-central wide image that immediately recall a President's public speech. A text subtitle explaining what kind of page is, that's good beacause accomplish the \emph{where} compulsory axis meanwhile permit the \emph{common text operations}\footnote{select, copy, paste.}, furthermore a set of social icons are well visible to share contents. \\
+	The briefing room page (Figure \ref{fig:primapaginainterna}) (\href{http://www.whitehouse.gov/briefing-room}{whitehouse.gov/briefing-room}) provides informations about the President's activity, latest events and public statements. The page has a top-central wide image that immediately recall a President's public speech. A text subtitle explaining what kind of page is, that's good beacause accomplish the \emph{where} compulsory axis meanwhile permit the \emph{common text operations}\footnote{select, copy, paste.}, furthermore a set of social icons are well visible to share contents. \\
 	The page content is divided in three columns, that's make user scanning effort more demanding but maybe authors wanted to put on the same footing those contents (media, policy, additional infos). Images are a bit short in height (304x125px) but sufficiently big to show their contents, they are't links so clock over doesn't produce any effects, this is undesirable since imgs appeals clicks. \\
 	The text content is well divied in separated, short and titled blocks, that's very good, furthermore every title is a colored link. The overall height and structure is enough compact to ensure a rapid scan. \\
 	A three columns bottom-content frame is located in the bottom page, columns are recent video, latest and featured policy. The first one shows a clickable thumbnail and subtitle, the image is 274x153px, clearly too small to be exhaustive. The second one present a list of news with a precise temporal reference. The last one has always a 311x272px img, big enough, clickable image.
 
 	\newpage
 	\subsection{/briefing-room/legislation}
-	
-	The legislation page (\href{http://www.whitehouse.gov/briefing-room/legislation}{whitehouse.gov/briefing-room/legislation}) is 
 
 	\begin{figure}[h!]
 	\centering 
@@ -183,11 +184,12 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	\end{figure}
 
 	
-
-	\subsection{/issues/technology}
+	The legislation page (Figure \ref{fig:secondapaginainterna}) (\href{http://www.whitehouse.gov/briefing-room/legislation}{whitehouse.gov/briefing-room/legislation}) is a 3\textsuperscript{rd} sublevel page. This page shows links to three kind of legislation (pending, signed, voted). There's no top images. Layout is three columns type, this isn't a good practice because it confuse the user. On the left side there's a menu for the whole \emph{briefing room} section, it shows every section sublevels. Its height is suited for nowadays content but the voice \emph{Disclosures} contains annuals reports so it's expected to grow every year, this means that the left column is going to constant increase its height; this could produce user dissatisfaction so it's a clear that there's a early design lack. Another bad note is about there aren't coloured links. \\
+	The central column shows a good design, there's a clear title, short subtitle and a compact list of titles with a short description. \\
+	The right side column is a bit problematic. First, there are three frame titled with an image not text. Second, the \emph{Archives} section is an example of the \emph{lorem ipsum damnation}: probably in design time it was filled with a short example content (e.g. lorem ipsum), next with the passing of the time it grew up a lot; this is an early design defect that'll cause trouble to users, what'll happen within ten years?
 	
 
-	(\href{http://www.whitehouse.gov/issues/technology}{whitehouse.gov/issues/technology})
+	\subsection{/issues/technology}
 
 	\begin{figure}[h!]
 	\centering 
@@ -195,16 +197,29 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	\caption[Third internal page: /issues/technology]{Third internal page: \emph{/issues/technology}.}
 	\label{fig:terzapaginainterna} 
 	\end{figure}
+	
+	The tecnology page (Figure \ref{fig:terzapaginainterna}) (\href{http://www.whitehouse.gov/issues/technology}{whitehouse.gov/issues/technology}) is a 3\textsuperscript{rd} sublevel page. This page is an article about President's view of tecnology and explain the whitehouse guideline principles. There's no top images. As above, there's a three column layout. At left side there's a menu showing all the first level of \emph{issues} section. This choice is different between the above analyzed section, that's maybe caused to not make it too height. Another time, links aren't coloured, this could confuse users. \\
+	The central column has a clear title but a too long subtitle, there's a video with no clear title and it's too long (32 mins). Text content isn't well organized: long text blocks (total 3790 words, at least 15-25 mins to read everything) with small titles, it could be divided in more than one page. Text block is so long that at the bottom page there's a link to jump to top of page. Social sharing icons are locatend at the end of the content so it'll take some time to spot it, this should not happen in the web 2.0 era where content sharing runs very fast. \\
+	The right column shows a 272x238px img with a fake button inside, this is big enough but the button contained isn't so intuitive for users. Than there're some related blog posts well presented, with coloured links title and the temporal reference. Next there's the related videos section, video's thumbnails are too small (274x153px) and, in conflict with the previous section video titles are placed below the video thumbnail.
+	Figure 	\ref{fig:terzapaginainternadettaglio} TODOOOO
 
+
+	\begin{figure}[h!]
+	\centering 
+	\centerline{\includegraphics[width=0.8\columnwidth]{3-internal-page-detail}}
+	\caption[]{TODO OoooOOOOoOOOOOOOO}
+	\label{fig:terzapaginainternadettaglio} 
+	\end{figure}
 	
 
 %----------------------------------------------------------------------------------------
 %	GENERALS OBSERVATIONS
 %----------------------------------------------------------------------------------------
 
+\newpage
 \section{General observations}
 
-
+splash screen quandi si lascia il web serv con link esterni
 
 %----------------------------------------------------------------------------------------
 %	SUMMARY
