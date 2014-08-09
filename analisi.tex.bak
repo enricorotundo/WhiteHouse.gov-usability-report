@@ -93,7 +93,7 @@ BCOR5mm, % Binding correction
 %	AUTHOR AFFILIATIONS
 %----------------------------------------------------------------------------------------
 
-{\let\thefootnote\relax\footnotetext{* \textit{Computer Science BSc student, AY 2013-2014, Department of Mathematics, University of Padua, Italy}}}
+{\let\thefootnote\relax\footnotetext{* \textit{Computer Science BSc student, AY 2013-2014, Department of Mathematics, Univerisity of Padua, Italy}}}
 
 %----------------------------------------------------------------------------------------
 
@@ -104,7 +104,7 @@ BCOR5mm, % Binding correction
 %----------------------------------------------------------------------------------------
 
 \section{Introduction}
-	This documents is a usability report of the website \thesite{}, following referred as ``the site'' or ``the website''. The website analyzed represent the US government, it's focused on the person of the President and deliver high grained information about him and Administration activities.  
+	This documents is a usability report of the website \thesite{}, following referred as ``the site'' or ``the website''. The website analized represent the US government, it's focused on the person of the President and deliver high grained informations about him and Administration activities.  
  
 %----------------------------------------------------------------------------------------
 %	NAME AND DOMAIN
@@ -131,19 +131,19 @@ The website name is the same of the institutions that represent, its meaning is 
 The first view of the homepage has a scanning time enough low to shows the 6w's\footnote{included ``How'', \url{http://en.wikipedia.org/wiki/Five_Ws}} in the limit time\footnote{30 seconds}.
 
 \begin{itemize}%[noitemsep]
-	\item \textbf{Where:} where are we? \\ The subtitle isn't so descriptive but the words \emph{whitehouse} and \emph{President Barack Obama} together clarify where we are. The breadcrumb lack doesn't explain where we are inside the website, this create user's disorientation;
+	\item \textbf{Where:} where are we? \\ The subtitle isn't so decriptive but the words \emph{whitehouse} and \emph{President Barack Obama} together clearify where we are. The breadcrumb lack doesn't explain where we are inside the website, this create user's disorientation;
 
-	\item \textbf{Who:} who represents the site? \\ In the top-left, a subtitle explaining that the whitehouse's representative is the President Barack Obama; that's an image and not plain text, this doesn't respect the common web rules, invalidating text advantages. \\
+	\item \textbf{Who:} who represents the site? \\ In the top-left, a subtitle explaining that the whitehouse's representer is the President Barack Obama; that's an image and not plain text, this doesn't respect the common web rules, invalidating text advantages. \\
 	The whitehouse logo is in the top-center and it includes a graphical text mentioning, another time, the white house. It correctly links to the homepage but a negative note is about the size: the text is too small and the image size doesn't respect the \emph{target size rule}\footnote{the more important a button is, the bigger it should be.}; I believe that the whitehouse logo is enough important (also as homepage link) to deserve a bigger size;
 
-	\item \textbf{Why:} why should i remain in this website? \\ This isn't a commercial website so we are interested in public domain infos about the white house. There're daily updates about relevant political facts, usually located in the central slide-show and in below sections;
+	\item \textbf{Why:} why should i remain in this website? \\ This isn't a commercial website so we are interested in public domain infos about the white house. There're daily updates about relevant polical facts, usually located in the central slideshow and in below sections;
 
 	\newpage
 	\item \textbf{What:} what offers the site? \\ This site offers some infos and news that a citizen could request, from the President activity to issues like economy, taxes, defense and political reports;
 
-	\item \textbf{When:} this is about temporal references contained in the site. \\ The ``top news'' section contains frequently updated news and, as mentioned above, the central slide-show offers last facts updates, often supplied with media (e.g., picture, video); 
+	\item \textbf{When:} this is about temporal references contained in the site. \\ The ``top news'' section contains frequently updated news and, as mentioned above, the central slideshow offers last facts updates, often supplied with media (e.g., picture, video); 
 
-	\item \textbf{How:} how we can move across the website? \\ The menu is top centered and has a good centered and wide sub-menus. There's also a search bar at the bottom of the central slide-show.
+	\item \textbf{How:} how we can move across the website? \\ The menu is top centered and has a good centered and wide submenus. There's also a search bar at the bottom of the central slideshow.
 
 \end{itemize}
 
@@ -151,16 +151,16 @@ Homepage can be divided in the following sections:
 	
 	\begin{enumerate}
 		
-		\item \textbf{Header:} logo and website subtitle are well located in the ``hot'' top-left area, they correctly links to the homepage. Contacts buttons (i.e. get email updates, contact us) are properly colored as link and the link area includes the icons. \\
+		\item \textbf{Header:} logo and website subititle are well located in the ``hot'' top-left area, they correctly links to the homepage. Contacts buttons (i.e. get email updates, contact us) are properly coloured as link and the link area includes the icons. \\
 		US flags located in the left menu confuse users, indeed it redirects to the homepage while flags are commonly often (wrongly\footnote{\href{http://flagsarenotlanguages.com}{http://flagsarenotlanguages.com}}) with language selection. \\
-		Submenus're wide and don't unexpectedly disappears when user interacts with them, a bit bothersome are those advertisement-like column, they've imgs so distract users in sub-menu reading;
+		Submenus're wide and don't unexpectedly disappears when user iteracts with them, a bit bothersome are those advertisement-like column, they've imgs so distract users in submenu reading;
 		
-		\item \textbf{Body:} top body has wide area with some text and media, the button is correctly non-graphical and video length variance is very high, depends on day, but generally there're videos longer then 3 minutes. This is allowed for a \emph{.gov} site but it has to be said that propose a 32mins\footnote{in date 2014-08-08} video in the top homepage couldn't be a wise choice. Search toolbar is discussed in \ref{searchtools}. \\
-		Popular topics section lacks in title link color and the buttons to navigate across topics are too small and require precise mouse positioning, not very comfortable for users. It's correct that imgs contains links and slightly change color on the mouse over. Below there's a tab selector, tabs navigation is clear, images are all clickable but sometimes too small. \\
-		Top news section hasn't any colored links and lacks on the same issue, mentioned above, on news navigation. Curious are the the icons \includegraphics[scale=0.6]{social-rows} in the social area, for no \emph{twitter} users it's difficult to understand their meaning also because they lead to the same splash screen (discussed in \ref{splashpage}). Another note goes to the photo of the day section icons \includegraphics[scale=0.6]{day-photo-home}, indeed while the plus button enlarge the photo, the info icon isn't a button, it overlays textual infos over the picture and isn't clickable, so the user is confused and ends to click on it, browser select it and result is unaesthetic;
+		\item \textbf{Body:} top body has wide area with some text and media, the button is correctly non-graphical and video lentgh variance is very hight, depends on day, but generally there're videos longer then 3 minutes. This is allowed for a \emph{.gov} site but it has to be said that propose a 32mins\footnote{in date 2014-08-08} video in the top homepage couldn't be a wise choice. Search toolbar is discussed in \ref{searchtools}. \\
+		Popular topics section lacks in title link color and the buttons to navigate across topics are too small and require precise mouse positioning, not very comfortable for users. It's correct that imgs contains links and slighlty change colour on the mouse over. Below there's a tab selector, tabs navigation is clear, images are all clickable but sometimes too small. \\
+		Top news section hasn't any coloured links and lacks on the same issue, mentioned above, on news naviation. Curious are the the icons \includegraphics[scale=0.6]{social-rows} in the social area, for no \emph{twitter} users it's difficult to understand their meaning also because they lead to the same splash screen (discussed in \ref{splashpage}). Another note goes to the photo of the day section icons \includegraphics[scale=0.6]{day-photo-home}, indeed while the plus button enlarge the photo, the info icon isn't a button, it overlays textual infos over the picture and isn't clickable, so the user is confused and ends to click on it, browser select it and result is unaesthetic;
 		
-		\item \textbf{Footer:} on the top there're social icons dominated by the seal of the President icon, while socials are clickable the latter isn't so that's different behavior of near icons, this confuse users.
-		Footer height is over-sized due the \emph{issue} column that's higher than the average. The bottom image \emph{www.whitehouse.gov} is just an image without links to the cited website, furthermore the bottom word's font is too small, 9px, against a lower-bound limit allowed of 10px. 
+		\item \textbf{Footer:} on the top there're social icons dominated by the seal of the President icon, while socials are clickable the latter isn't so that's different behaviour of near icons, this confuse users.
+		Footer height is oversized due the \emph{issue} column that's higher than the average. The bottom image \emph{www.whitehouse.gov} is just an image witout links to the cited website, furthermore the bottom word's font is too small, 9px, against a lower-bound limit allowed of 10px. 
 		
 	\end{enumerate}
 
@@ -169,8 +169,8 @@ Homepage can be divided in the following sections:
 %----------------------------------------------------------------------------------------
 
 \section{Internal pages}
-Most of internal pages are structured in base of the sub-level: 2\textsuperscript{nd} and 3\textsuperscript{rd} levels have their layout that seems to remain unchanged for the most part of the sub-level.
-All sub-level, except the homepage, have a \emph{location breadcrumb} located at the bottom of the menu: it shows your position relative to the homepage. Inline with the breadcrumb there's the search bar, the textbox allows 25 chars before to run into the \emph{guillotine effect}\footnote{when textbox are too small so users are forced to use scrollbars to show up the content.}; furthermore the search tool shows a clear \emph{search} button instead to require a click on the hand lens. 
+Most of internal pages are structured in base of the sublevel: 2\textsuperscript{nd} and 3\textsuperscript{rd} levels have their layout that seems to remain unchanged for the most part of the sublevel.
+All sublevel, except the homepage, have a \emph{location breadcrumb} located at the bottom of the menu: it shows your position relative to the homepage. Inline with the breadcrumb there's the search bar, the textbox allows 25 chars before to run into the \emph{guillotine effect}\footnote{when textbox are too small so users are forced to use scrollbars to show up the content.}; furthermore the search tool shows a clear \emph{search} button instead to require a click on the hand lens. 
 Every page seems to be reachable from the homepage in most 3 clicks, that's why the menu is complete and well done. 
 Internal pages are reachable from different pages than the home (\emph{deep linking}) so they have to propose again the compulsory informative axis: \emph{who}/\emph{what}/\emph{where}. The website correctly respect those requirements.
 Below there're the analysis of three subpages, the first one sublevel is 1 and the second and the third are 2\textsuperscript{nd} level.
@@ -186,9 +186,9 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	\label{fig:primapaginainterna} 
 	\end{figure}
 
-	The briefing room page (Figure \ref{fig:primapaginainterna}) (\href{http://www.whitehouse.gov/briefing-room}{whitehouse.gov/briefing-room}) provides information about the President's activity, latest events and public statements. The page has a top-central wide image that immediately recalls a President's public speech. A text subtitle explain what kind of page is, that's good because accomplishes the \emph{where} compulsory axis meanwhile permits the \emph{common text operations}\footnote{select, copy, paste.}, furthermore a set of social icons are well visible to share contents. \\
-	The page content is divided in three columns, that's make user scanning effort more demanding but maybe authors wanted to put on the same footing those contents (media, policy, additional infos). Images are a bit short in height (304x125px) but sufficiently big to show their contents, they aren't links so clock over doesn't produce any effects, this is undesirable since imgs appeals clicks. \\
-	The text content is well divided in separated, short and titled blocks, that's very good, furthermore every title is a colored link. The overall height and structure is enough compact to ensure a rapid scan. \\
+	The briefing room page (Figure \ref{fig:primapaginainterna}) (\href{http://www.whitehouse.gov/briefing-room}{whitehouse.gov/briefing-room}) provides informations about the President's activity, latest events and public statements. The page has a top-central wide image that immediately recalls a President's public speech. A text subtitle explain what kind of page is, that's good beacause accomplishes the \emph{where} compulsory axis meanwhile permits the \emph{common text operations}\footnote{select, copy, paste.}, furthermore a set of social icons are well visible to share contents. \\
+	The page content is divided in three columns, that's make user scanning effort more demanding but maybe authors wanted to put on the same footing those contents (media, policy, additional infos). Images are a bit short in height (304x125px) but sufficiently big to show their contents, they are't links so clock over doesn't produce any effects, this is undesirable since imgs appeals clicks. \\
+	The text content is well divied in separated, short and titled blocks, that's very good, furthermore every title is a coloured link. The overall height and structure is enough compact to ensure a rapid scan. \\
 	A three columns bottom-content frame is located in the bottom page, columns are recent video, latest and featured policy. The first one shows a clickable thumbnail and subtitle, the image is 274x153px, clearly too small to be exhaustive. The second one presents a list of news with a precise temporal reference. The last one has always a 311x272px img, big enough, clickable image.
 
 	\newpage
@@ -203,9 +203,9 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	\end{figure}
 
 	
-	The legislation page (Figure \ref{fig:secondapaginainterna}) (\href{http://www.whitehouse.gov/briefing-room/legislation}{whitehouse.gov/briefing-room/legislation}) is a 3\textsuperscript{rd} sublevel page. This page shows links to three kind of legislation (pending, signed, voted). There's no top images. Layout is three columns type, this isn't a good practice because users can't easily scan it. On the left side there's a menu for the whole \emph{briefing room} section showing every section sublevels. Its height is suited for nowadays content but the voice \emph{Disclosures} contains annuals reports so it's expected to grow every year; this could produce user dissatisfaction so it's clear that there's an early design lack. Another bad note is colored links absence. \\
+	The legislation page (Figure \ref{fig:secondapaginainterna}) (\href{http://www.whitehouse.gov/briefing-room/legislation}{whitehouse.gov/briefing-room/legislation}) is a 3\textsuperscript{rd} sublevel page. This page shows links to three kind of legislations (pending, signed, voted). There's no top images. Layout is three columns type, this isn't a good practice because users can't easily scan it. On the left side there's a menu for the whole \emph{briefing room} section showing every section sublevels. Its height is suited for nowadays content but the voice \emph{Disclosures} contains annuals reports so it's expected to grow every year; this could produce user dissatisfaction so it's clear that there's an early design lack. Another bad note is coloured links absence. \\
 	The central column shows a good design, with a clear main title, short subtitle and a compact list of minor titles with short description. \\
-	The right side column is a bit problematic. First, there are three frame containing graphical text. Second, the \emph{Archives} section is an example of \emph{lorem ipsum damnation}: probably in design time it was filled with a short example content (e.g., lorem ipsum), then with the passing of the time it grew up a lot; this is an early design defect that'll cause trouble to users, what'll happen within ten years?
+	The right side column is a bit problematic. First, there are three frame contining graphical text. Second, the \emph{Archives} section is an example of \emph{lorem ipsum damnation}: probably in design time it was filled with a short example content (e.g., lorem ipsum), then with the passing of the time it grew up a lot; this is an early design defect that'll cause trouble to users, what'll happen within ten years?
 	
 
 	\subsection{/issues/technology}
@@ -219,9 +219,9 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	\label{fig:terzapaginainterna} 
 	\end{figure}
 	
-	The technology page (Figure \ref{fig:terzapaginainterna}) (\href{http://www.whitehouse.gov/issues/technology}{whitehouse.gov/issues/technology}) is a 3\textsuperscript{rd} sublevel page. This page is an article about President's view of technology and explains the whitehouse's guideline principles. There's no top images; three column layout. In left side there's a menu showing only the first level of \emph{issues's} section. This choice is different between the previous page (\ref{secondapaginainterna}), maybe because it'd be so high. Another time, links aren't colored, this could confuse users. \\
-	The central column has a clear title but a too long subtitle; a video with no clear title come first text, it's length is very long (32 mins). Text content isn't well organized: long text blocks\footnote{total 3790 words, reading takes 15-25.} with small titles, it could be divided in more than one pages. Text block is so long so at the bottom page there's a link to jump to the top. Social sharing icons are located at the end of the content, it'll take some time to spot it, this's undesirable in the web 2.0 era where a fast content sharing is required. \\
-	The right column shows a 272x238px img with a fake button inside that isn't so intuitive for users. About the size the image is ok. Then there're some related blog posts well presented, with colored links title and temporal reference. Next, related videos section take the place, thumbnails are too small (274x153px) and, in conflict with the previous section, titles are placed below the video thumbnail.
+	The tecnology page (Figure \ref{fig:terzapaginainterna}) (\href{http://www.whitehouse.gov/issues/technology}{whitehouse.gov/issues/technology}) is a 3\textsuperscript{rd} sublevel page. This page is an article about President's view of tecnology and explains the whitehouse's guideline principles. There's no top images; three column layout. In left side there's a menu showing only the first level of \emph{issues's} section. This choice is different between the previous page (\ref{secondapaginainterna}), maybe because it'd be so high. Another time, links aren't coloured, this could confuse users. \\
+	The central column has a clear title but a too long subtitle; a video with no clear title come first text, it's lenght is very long (32 mins). Text content isn't well organized: long text blocks\footnote{total 3790 words, reading takes 15-25.} with small titles, it could be divided in more than one pages. Text block is so long so at the bottom page there's a link to jump to the top. Social sharing icons are located at the end of the content, it'll take some time to spot it, this's undesiderable in the web 2.0 era where a fast content sharing is required. \\
+	The right column shows a 272x238px img with a fake button inside that isn't so intuitive for users. About the size the image is ok. Then there're some related blog posts well presented, with coloured links title and temporal reference. Next, related videos section take the place, thumbnails are too small (274x153px) and, in conflict with the previous section, titles are placed below the video thumbnail.
 	
 	\begin{figure}[h!]
 	\centering 
@@ -230,7 +230,7 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	\label{fig:terzapaginainternadettaglio} 
 	\end{figure}
 
-	A black mark goes to the feedback-form shown in Figure \ref{fig:terzapaginainternadettaglio}, although it has a clear usage and has a limited number of inputs, its design is a bit strange. The comments text-box cannot be enlarged even though there's some empty space on the right. The way of escape is clear, a \emph{close} text button in upper right corner, however users would expect to close this form by clicking outside it, but it doesn't works in that way. Furthermore, the feedback-form behavior is confusing: clicking the green \emph{give feedback about this page} button (another time, an img button with non-text inside) to show up the form, users have to wait a too long delay before the form shows up; this happens also when user wants to close the form by clicking the green button.
+	A black mark goes to the feedback-form shown in Figure \ref{fig:terzapaginainternadettaglio}, although it has a clear usage and has a limited number of inputs, its design is a bit strange. The comments text-box cannot be enlarged even though there's some empty space on the right. The way of escape is clear, a \emph{close} text button in upper right corner, however users would expect to close this form by clicking outside it, but it'doesent works in that way. Furthermore, the feedback-form behaviour is confusing: clicking the green \emph{give feedback about this page} button (another time, an img button with non-text inside) to show up the form, users have to wait a too long delay before the form shows up; this happens also when user wants to close the form by clicking the green button.
 
 %----------------------------------------------------------------------------------------
 %	GENERALS OBSERVATIONS
@@ -249,12 +249,12 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	There're upper-case sentences, sometimes used as subtitle, but those number is not noteworthy. No keywords highlighted in bold.
 
 	\subsection{Links}
-	Links aren't always colored and visited links doesn't change color. This goes against web conventions and increase the user effort during navigation. 
+	Links aren't always coloured and visited links doesn't change color. This goes against web conventions and increase the user effort during navigation. 
 
 	\subsection{Scroll}
 	Page's height is well sized for the high level pages (e.g., 1\textsuperscript{st}, 2\textsuperscript{nd}) but going in deep reveals pages too high. Let's compare the homepage height with a 3\textsuperscript{rd} level page (\ref{terzapaginainterna}). \\
 	Entire homepage is shown in Figure \ref{fig:entirehomepage}, the whole content fits in the first two screens, considering that the 3\textsuperscript{rd} screen is due to the \emph{issues} column, this is acceptable.
-	A bad mark goes to the 3\textsuperscript{rd} level page (\ref{terzapaginainterna}) which is 9752px high: with a 1440x900px monitor, users needs to scroll 11 entire screens; unacceptable, it'd better to separate content in different tabs. 
+	A bad mark goes to the 3\textsuperscript{rd} level page (\ref{terzapaginainterna}) which is 9752px high: with a 1440x900px monitor, users needs to scroll 11 entire screens; unacceptable, it'd better to separate content in diffeent tabs. 
 
 	\begin{figure}[h]
 	\centering 
@@ -295,12 +295,12 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 
 	\newpage
 	\subsection{Back button}
-	Back button works as expected in every page, never opens previous pages in a detached window.
+	Back button works as expected in every page, never opens previous pages in a detatched window.
 
 	\newpage
 	\subsection{Splash page}
 	\label{splashpage}
-	At the first visit there aren't any splash screens or registration form, nevertheless a splash screen (Figure \ref{fig:splash-screen}) appears when user click on an external link, in this case a message warns user that is leaving the \thesite{} web server. This message is very annoying and it goes against the web conventions.
+	At the first visit there aren't any splash screens or registation form, nevertheless a splash screen (Figure \ref{fig:splash-screen}) appears when user click on an exteral link, in this case a message warns user that is leaving the \thesite{} web server. This message is very annoying and it goes against the web conventions.
 
 	\begin{figure}[h]
 	\centering 
@@ -310,10 +310,10 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	\end{figure}
 
 	\subsection{Ads}
-	This isn't a commercial website, nevertheless the site has some ads to specific themes (e.g., join military forces, taxes calculator). Ads are correctly located in the right column and gracefully integrates the site look. Although there aren't awful effects like blinking, rotating or on the move texts, it has to be said that sometimes whole ads images are clickable, sometimes only a portion. This clearly confuse users that usually try to click over images.
+	This isn't a commercial website, nevertheless the site has some ads to specific themes (e.g., join military forces, taxes caluclator). Ads are correctly located in the right column and gracefully integrates the site look. Althought there aren't awful effects like blinking, rotating or on the move texts, it has to be said that sometimes whole ads images are clickable, sometimes only a portion. This clearly confuse users that usually try to click over images.
 
 	\subsection{404}
-	Inserting an invalid url the website correctly shows an error message (Figure \ref{fig:not-found-page}). This scenario happens when a user follows a broken link, the site properly invites to return to the homepage by a link. 
+	Inserting an unvalid url the webiste correctly shows an error message (Figure \ref{fig:not-found-page}). This scenario happens when a user follows a broken link, the site properly invites to return to the homepage by a link. 
 
 	\begin{figure}[t]
 	\centering 
@@ -331,7 +331,7 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	\begin{centering}
 	{ \huge \bfseries grade: 7.5/10 \\[0.3cm] }
 	\end{centering}
-	Considering the huge size of the site, the few defects identified and the complexity and variety of content delivered by \thesite{}, i consider it as a well designed website. Except the excessive height of some pages, defects detected are not so heavy to spoil navigation.
+	Considering the huge size of the site, the fews defects identified and the complexity and variety of content delivered by \thesite{}, i consider it as a well designed website. Except the excessive height of some pages, defects detected are not so heavy to spoil navigation.
 
 
 %----------------------------------------------------------------------------------------
