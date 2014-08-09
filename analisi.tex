@@ -20,7 +20,7 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[
-12pt, % Main document font size
+10pt, % Main document font size
 a4paper, % Paper type, use 'letterpaper' for US Letter paper
 oneside, % One page layout (no page indentation)
 %twoside, % Two page layout (page indentation for binding and different headers)
@@ -90,7 +90,7 @@ BCOR5mm, % Binding correction
 %	AUTHOR AFFILIATIONS
 %----------------------------------------------------------------------------------------
 
-{\let\thefootnote\relax\footnotetext{* \textit{Computer Science BSc student, Department of Mathematics, Univerisity of Padua, Italy}}}
+{\let\thefootnote\relax\footnotetext{* \textit{Computer Science BSc student, AY 2013-2014, Department of Mathematics, Univerisity of Padua, Italy}}}
 
 %----------------------------------------------------------------------------------------
 
@@ -115,12 +115,12 @@ The website name is the same of the institutions that represent, its meaning is 
 %	HOMEPAGE
 %----------------------------------------------------------------------------------------
 
-\newpage
 \section{Homepage}
+\label{homepage}
 
 \begin{figure}[h]
 \centering 
-\centerline{\includegraphics[width=1.8\columnwidth]{homepage-visible}}
+\centerline{\includegraphics[width=2\columnwidth]{homepage-visible}}
 \caption[Homepage]{Homepage of \thesite{}}
 \label{fig:homepage} 
 \end{figure}
@@ -143,9 +143,11 @@ The first view of the homepage has a layout scanning time enough low to shows th
 
 \end{itemize}
 
-VIDEO 8:30 mins
+VIDEO 8:30 mins ma i .gov non hanno timer
  |||| TODOOO
+bandiera amircana link home
 
+footer logo acquila vicino icone social non cliccabile
 
 %----------------------------------------------------------------------------------------
 %	INTERNAL PAGES
@@ -159,11 +161,12 @@ Internal pages are reachable from different pages than the home (\emph{deep link
 Below there're the analysis of three subpages, the first one sublevel is 1 and the second and the third are 2\textsuperscript{nd} level.
 
 	\subsection{/briefing-room}
+	\label{primapaginainterna}
 	
 
 	\begin{figure}[h!]
 	\centering 
-	\centerline{\includegraphics[width=1.8\columnwidth]{1-internal-page-entire}}
+	\centerline{\includegraphics[width=2\columnwidth]{1-internal-page-entire}}
 	\caption[First internal page: /briefing-room]{First internal page: \emph{/briefing-room}.}
 	\label{fig:primapaginainterna} 
 	\end{figure}
@@ -173,12 +176,12 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	The text content is well divied in separated, short and titled blocks, that's very good, furthermore every title is a colored link. The overall height and structure is enough compact to ensure a rapid scan. \\
 	A three columns bottom-content frame is located in the bottom page, columns are recent video, latest and featured policy. The first one shows a clickable thumbnail and subtitle, the image is 274x153px, clearly too small to be exhaustive. The second one present a list of news with a precise temporal reference. The last one has always a 311x272px img, big enough, clickable image.
 
-	\newpage
 	\subsection{/briefing-room/legislation}
+	\label{secondapaginainterna}
 
 	\begin{figure}[h!]
 	\centering 
-	\centerline{\includegraphics[width=1.8\columnwidth]{2-internal-page-visible}}
+	\centerline{\includegraphics[width=2\columnwidth]{2-internal-page-visible}}
 	\caption[Second internal page: /briefing-room/legislation]{Second internal page: \emph{/briefing-room/legislation}.}
 	\label{fig:secondapaginainterna} 
 	\end{figure}
@@ -190,10 +193,12 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	
 
 	\subsection{/issues/technology}
+	\label{terzapaginainterna} 
+
 
 	\begin{figure}[h!]
 	\centering 
-	\centerline{\includegraphics[width=1.8\columnwidth]{3-internal-page-visible}}
+	\centerline{\includegraphics[width=2\columnwidth]{3-internal-page-visible}}
 	\caption[Third internal page: /issues/technology]{Third internal page: \emph{/issues/technology}.}
 	\label{fig:terzapaginainterna} 
 	\end{figure}
@@ -201,16 +206,15 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	The tecnology page (Figure \ref{fig:terzapaginainterna}) (\href{http://www.whitehouse.gov/issues/technology}{whitehouse.gov/issues/technology}) is a 3\textsuperscript{rd} sublevel page. This page is an article about President's view of tecnology and explain the whitehouse guideline principles. There's no top images. As above, there's a three column layout. At left side there's a menu showing all the first level of \emph{issues} section. This choice is different between the above analyzed section, that's maybe caused to not make it too height. Another time, links aren't coloured, this could confuse users. \\
 	The central column has a clear title but a too long subtitle, there's a video with no clear title and it's too long (32 mins). Text content isn't well organized: long text blocks (total 3790 words, at least 15-25 mins to read everything) with small titles, it could be divided in more than one page. Text block is so long that at the bottom page there's a link to jump to top of page. Social sharing icons are locatend at the end of the content so it'll take some time to spot it, this should not happen in the web 2.0 era where content sharing runs very fast. \\
 	The right column shows a 272x238px img with a fake button inside, this is big enough but the button contained isn't so intuitive for users. Than there're some related blog posts well presented, with coloured links title and the temporal reference. Next there's the related videos section, video's thumbnails are too small (274x153px) and, in conflict with the previous section video titles are placed below the video thumbnail.
-	Figure 	\ref{fig:terzapaginainternadettaglio} TODOOOO
-
-
+	
 	\begin{figure}[h!]
 	\centering 
 	\centerline{\includegraphics[width=0.8\columnwidth]{3-internal-page-detail}}
-	\caption[]{TODO OoooOOOOoOOOOOOOO}
+	\caption[feedback-form]{feedback-form included in every 3\textsuperscript{rd} sublevel page.}
 	\label{fig:terzapaginainternadettaglio} 
 	\end{figure}
-	
+
+	A black mark goes to the feedback-form shown in Figure \ref{fig:terzapaginainternadettaglio}, although it's clear how to use it and has a limited number of inputs and texts, its design is a bit strange. The comments text-box cannot be enlarged even though there's some white right space. The way of escape is clear, there's a text button in upper right corner, however users would expect to close this form by clicking outside it, but it'doesent works in that way. Furthermore, the feedback-form behaviour is confusing: clicking the green \emph{give feedback about this page} button (another time, an img button with non-text inside) to show up the form there's a too long delay befefore the form appearence, this happens also when user wants to close the form by clicking the green button.
 
 %----------------------------------------------------------------------------------------
 %	GENERALS OBSERVATIONS
@@ -219,7 +223,66 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 \newpage
 \section{General observations}
 
-splash screen quandi si lascia il web serv con link esterni
+	\subsection{Images}
+	The majority of images can be clicked but there are pages (e.g. \ref{primapaginainterna}) with no cliccable images. This disorientate users especially in this site where the most part if imgs are cliccable, indeed user have to understand by the context if and why he cannot click over an image.
+	Image sizing is generally small, around or below the 210x230px limit, but important images are always big enough to be understood.
+
+	\subsection{Texts}
+	Text is visible, clear, big enough, always well contrastwd with the background. There's no sizing buttons and there are too many fonts, sometimes more than 4 (e.g. \ref{terzapaginainterna}).
+	There's an abuse of images containing texts and buttons, this as said above, tend to confuse users. 
+	There're upper-case sentences, sometimes used as subtitle, but those number is not noteworthy.
+
+	\subsection{Links}
+	Links are not always coloured and visited links doesn't change color. This goes against web conventions and increase the user effort to navigate. 
+
+	\subsection{Scroll}
+	Pages height is well sized for the high level pages link the home or one sublevel but as user go in deep levels pages grows immoderately. Let's compare the homepage height with a 3\textsuperscript{rd} level page (\ref{terzapaginainterna}). \\
+	Entire homepage is shown in Figure \ref{fig:entirehomepage}, entire content is contained in the first two screens, considering that the 3\textsuperscript{rd} screen is due to the \emph{issues} column, this is acceptable.
+	A bad mark goes to the \ref{terzapaginainterna} which is 9752px high so, with a 1440x900px monitor, users needs to scroll 11 entire screens, this is unaceptable, it'd better to separate content in diffeent tabs. 
+
+	\begin{figure}[h]
+	\centering 
+	\centerline{\includegraphics[width=0.9\columnwidth]{homepage-entire}}
+	\caption[Entire homepage]{Entire Homepage divided by 900px height screen.}
+	\label{fig:entirehomepage} 
+	\end{figure}
+
+	\subsection{Search tools}
+	Consided the website size, a search tool is present. The site use Bing\footnote{\href{http://en.wikipedia.org/wiki/Bing}{http://en.wikipedia.org/wiki/Bing}} as search engine but the search seems to be personalized for White House requirements so we can consider it as local search, indeed there's no redirects to the search engine page. The only reference to the external search engine at the page bottom there's an uncliccable logo with the subtitle: ``\emph{results by Bing}''. \\
+	Search toolbar present in pages above is different from homepage (\ref{homepage}) and others subpages (\ref{primapaginainterna}, \ref{secondapaginainterna}, \ref{terzapaginainterna}). The first one is located below the central wide image and the search button is an hand lens icon (bad); subpages has search bar above the central image, this time with the proper \emph{Search} button. Either search leads to a results page (Figure \ref{fig:search-simple}). In case of an unsuccessful search the page correctly warns the user with a message (Figure \ref{fig:search-no-results}).
+
+	\begin{figure}[h]
+	\centering 
+	\centerline{\includegraphics[width=2\columnwidth]{search-simple}}
+	\caption[Simple search results page]{Simple search results page.}
+	\label{fig:search-simple} 
+	\end{figure}
+
+	\begin{figure}[h]
+	\centering 
+	\centerline{\includegraphics[width=2\columnwidth]{search-no-results}}
+	\caption[No results search results page]{No results search results page.}
+	\label{fig:search-no-results} 
+	\end{figure}
+
+	Advanced search (Figure \ref{fig:search-advanced} ) is accessible starting from a simple search result page (Figure \ref{fig:search-simple}), this makes advanced search optional and is a positive mark. 
+
+	\begin{figure}[h]
+	\centering 
+	\centerline{\includegraphics[width=2\columnwidth]{search-advanced}}
+	\caption[Advanced search results page]{Advanced search results page}
+	\label{fig:search-advanced} 
+	\end{figure}
+
+
+	\subsection{Back button}
+
+	\subsection{Spash page}
+	splash screen quandi si lascia il web serv con link esterni
+
+
+	\subsection{Ads}
+	\subsection{404}
 
 %----------------------------------------------------------------------------------------
 %	SUMMARY
