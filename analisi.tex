@@ -64,6 +64,9 @@ BCOR5mm, % Binding correction
 
 \newcommand{\thesite}{\href{http://www.whitehouse.gov/}{whitehouse.gov}}
 
+\newcolumntype{C}[1]{>{\Centering}m{#1}} % http://tex.stackexchange.com/questions/15282/tabular-title-above-and-caption-below
+\renewcommand\tabularxcolumn[1]{C{#1}}
+
 %----------------------------------------------------------------------------------------
 %	TABLE OF CONTENTS & LISTS OF FIGURES AND TABLES
 %----------------------------------------------------------------------------------------
@@ -118,36 +121,52 @@ The website name is the same of the institutions that represent, its meaning is 
 \section{Homepage}
 \label{homepage}
 
-\begin{figure}[h]
+\begin{figure}[p]
 \centering 
-\centerline{\includegraphics[width=2\columnwidth]{homepage-visible}}
+\centerline{\includegraphics[width=1.4\columnwidth]{homepage-entire-sections}}
 \caption[Homepage]{Homepage of \thesite{}}
 \label{fig:homepage} 
 \end{figure}
 
-The first view of the homepage has a layout scanning time enough low to shows the 6w's in the limit time of 30 seconds; the 6w's\footnote{included ``How'', \url{http://en.wikipedia.org/wiki/Five_Ws}} axis are well structured:
+The first view of the homepage has a scanning time enough low to shows the 6w's\footnote{included ``How'', \url{http://en.wikipedia.org/wiki/Five_Ws}} in the limit time of 30 seconds.
 
 \begin{itemize}%[noitemsep]
-	\item \textit{Where:} where are we? \\ The subtitle isn't that decriptive but the words \emph{whitehouse} and \emph{President Barack Obama} together clearify where we are. The breadcrumb lack doesn't explain where we are positioned inside the website, this fact could create user disorientation;
+	\item \textbf{Where:} where are we? \\ The subtitle isn't so decriptive but the words \emph{whitehouse} and \emph{President Barack Obama} together clearify where we are. The breadcrumb lack doesn't explain where we are inside the website, this create user disorientation;
 
-	\item \textit{Who:} who represent the site? \\ In the top-left there is a subtitle explaining that the representer of the whitehouse is the President Barack Obama. Note that's an image and not plain text, this doesn't respect the common rules invalidating text advantages. \\
-	The whitehouse logo is in the top-center and it includes a graphical text mentioning, another time, the white house. It correctly links to the homepage but a negative note is about the size: the text is too small and the image size doesn't respect the \emph{target size rule}\footnote{the more important a button is, the bigger it should be.}; i believe that the whitehouse logo is enough important (also as homepage link) to deserve a slightly bigger size;
+	\item \textbf{Who:} who represent the site? \\ In the top-left a subtitle explaining that the representer of the whitehouse is the President Barack Obama. Note that's an image and not plain text, this doesn't respect the common web rules, invalidating text advantages. \\
+	The whitehouse logo is in the top-center and it includes a graphical text mentioning, another time, the white house. It correctly links to the homepage but a negative note is about the size: the text is too small and the image size doesn't respect the \emph{target size rule}\footnote{the more important a button is, the bigger it should be.}; i believe that the whitehouse logo is enough important (also as homepage link) to deserve a bigger size;
 
-	\item \textit{Why:} why should i remain in this website? \\ This is not a commercial website so we are interested in public domain infos about the white house. There're daily updates about relevant polical facts, usually located in the central slideshow;
+	\item \textbf{Why:} why should i remain in this website? \\ This is not a commercial website so we are interested in public domain infos about the white house. There're daily updates about relevant polical facts, usually located in the central slideshow and in below sections;
 
-	\item \textit{What:} what offers the site? \\ This site offers any infos and news that a citizen could request, form the President activity to issues like economy, taxes, defense and political reports;
+	\item \textbf{What:} what offers the site? \\ This site offers any infos and news that a citizen could request, form the President activity to issues like economy, taxes, defense and political reports;
 
-	\item \textit{When:} this is about temporal references contained in the site. \\ The ``top news'' section contains frequently updated short news and, as mentioned above, the central slideshow offers last facts updates, often supplied with a media (e.g. picture, video, etc. ); 
+	\item \textbf{When:} this is about temporal references contained in the site. \\ The ``top news'' section contains frequently updated news and, as mentioned above, the central slideshow offers last facts updates, often supplied with media (e.g., picture, video); 
 
-	\item \textit{How:} how we can move across the website? \\ The menu is top centered and has a good centered and wide submenus. There's also a search bar at the bottom of the central slideshow.
+	\item \textbf{How:} how we can move across the website? \\ The menu is top centered and has a good centered and wide submenus. There's also a search bar at the bottom of the central slideshow.
 
 \end{itemize}
 
 VIDEO 8:30 mins ma i .gov non hanno timer
  |||| TODOOO
 bandiera amircana link home
-
 footer logo acquila vicino icone social non cliccabile
+
+Homepage can be divided in the following sections:
+	
+	\begin{enumerate}
+		
+		\item \textbf{Header:} logo and website subititle are well located in the ``hot'' top-left area, they correctly links to the homepage. Contacts buttons (i.e. get email updates, contact us) are properly coloured as link and the link area include the icons. \\
+		US flags located in the left menu confuse users, indeed it redirects to the homepage while flags are commonly often (wrongly\footnote{\href{http://flagsarenotlanguages.com}{http://flagsarenotlanguages.com}}) with language selection. \\
+		Submenus're wide and doesn't unexpectedly disappears when user iteract with them, a bit bothersome are those advertisement-like column, they've imgs so distract users in submenu reading;
+		
+		\item \textbf{Body:} top body has wide area with some text and media, the button is correctly non-graphical and video lentgh variance is very hight, depends on day, but generally there're videos longher then 3 minutes. This is allowed for a \emph{.gov} site but it has to be said that propose a 32mins\footnote{2014-08-08} video in the top homepage couldn't be a wise choice. Search toolbar is discussed in \ref{searchtools}. \\
+		Popular topics section lacks in title link color and the buttons to navigate across topics are too small and require precise mouse positioning, not very comfortable for users. It's correct that imgs contains links and slighlty change colour on the mouse over. Below there's a tab selector, tabs navigation is clear, images are all cliccable but sometimes too small. \\
+		Top news section has no coloured links and lacks on the same issue, mentioned above, on news naviation. Curious are the the icons \includegraphics[scale=0.6]{social-rows} in the social area, for a non \emph{twitter} user it's difficult to understand their meaning also because they lead to the same splash screen (discussed in \ref{splashpage}). Another note goes to the photo of the day section icons \includegraphics[scale=0.6]{day-photo-home}, indeed while the plus button enlarge the photo, the info icon isn't a button, it overlays textual infos over the picture and isn't cliccable, so the user is confused and ends to click on it, browser select it and result is unaesthetic;
+		
+		\item \textbf{Footer:} on the top there're social icons dominated by the seal of the President icon, while socials are cliccable the latter isn't so that's different behaviour of near icons, this confuse users.
+		Footer height is oversized due the \emph{issue} column that's higher than the average. The bottom image \emph{www.whitehouse.gov} is just an image witout links to the cited website, furthermore the bottom word's font is too small, 9px, against a lower-bound limit allowed of 10px. 
+		
+	\end{enumerate}
 
 %----------------------------------------------------------------------------------------
 %	INTERNAL PAGES
@@ -189,7 +208,7 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	
 	The legislation page (Figure \ref{fig:secondapaginainterna}) (\href{http://www.whitehouse.gov/briefing-room/legislation}{whitehouse.gov/briefing-room/legislation}) is a 3\textsuperscript{rd} sublevel page. This page shows links to three kind of legislation (pending, signed, voted). There's no top images. Layout is three columns type, this isn't a good practice because it confuse the user. On the left side there's a menu for the whole \emph{briefing room} section, it shows every section sublevels. Its height is suited for nowadays content but the voice \emph{Disclosures} contains annuals reports so it's expected to grow every year, this means that the left column is going to constant increase its height; this could produce user dissatisfaction so it's a clear that there's a early design lack. Another bad note is about there aren't coloured links. \\
 	The central column shows a good design, there's a clear title, short subtitle and a compact list of titles with a short description. \\
-	The right side column is a bit problematic. First, there are three frame titled with an image not text. Second, the \emph{Archives} section is an example of the \emph{lorem ipsum damnation}: probably in design time it was filled with a short example content (e.g. lorem ipsum), next with the passing of the time it grew up a lot; this is an early design defect that'll cause trouble to users, what'll happen within ten years?
+	The right side column is a bit problematic. First, there are three frame titled with an image not text. Second, the \emph{Archives} section is an example of the \emph{lorem ipsum damnation}: probably in design time it was filled with a short example content (e.g., lorem ipsum), next with the passing of the time it grew up a lot; this is an early design defect that'll cause trouble to users, what'll happen within ten years?
 	
 
 	\subsection{/issues/technology}
@@ -224,13 +243,14 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 \section{General observations}
 
 	\subsection{Images}
-	The majority of images can be clicked but there are pages (e.g. \ref{primapaginainterna}) with no cliccable images. This disorientate users especially in this site where the most part if imgs are cliccable, indeed user have to understand by the context if and why he cannot click over an image.
+	The majority of images can be clicked but there are pages (e.g., \ref{primapaginainterna}) with no cliccable images. This disorientate users especially in this site where the most part if imgs are cliccable, indeed user have to understand by the context if and why he cannot click over an image.
 	Image sizing is generally small, around or below the 210x230px limit, but important images are always big enough to be understood.
 
 	\subsection{Texts}
-	Text is visible, clear, big enough, always well contrastwd with the background. There's no sizing buttons and there are too many fonts, sometimes more than 4 (e.g. \ref{terzapaginainterna}).
+	Text is visible, clear, big enough, always well contrastwd with the background. There's no sizing buttons and there are too many fonts, sometimes more than 4 (e.g., \ref{terzapaginainterna}).
 	There's an abuse of images containing texts and buttons, this as said above, tend to confuse users. 
-	There're upper-case sentences, sometimes used as subtitle, but those number is not noteworthy.
+	There're upper-case sentences, sometimes used as subtitle, but those number is not noteworthy. No keywords highlighted in bold.
+
 
 	\subsection{Links}
 	Links are not always coloured and visited links doesn't change color. This goes against web conventions and increase the user effort to navigate. 
@@ -242,12 +262,13 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 
 	\begin{figure}[h]
 	\centering 
-	\centerline{\includegraphics[width=0.9\columnwidth]{homepage-entire}}
-	\caption[Entire homepage]{Entire Homepage divided by 900px height screen.}
+	\centerline{\includegraphics[width=0.9\columnwidth]{homepage-entire-screen}}
+	\caption[Screen divided homepage]{Entire Homepage divided by 900px height screen.}
 	\label{fig:entirehomepage} 
 	\end{figure}
 
 	\subsection{Search tools}
+	\label{searchtools}
 	Consided the website size, a search tool is present. The site use Bing\footnote{\href{http://en.wikipedia.org/wiki/Bing}{http://en.wikipedia.org/wiki/Bing}} as search engine but the search seems to be personalized for White House requirements so we can consider it as local search, indeed there's no redirects to the search engine page. The only reference to the external search engine at the page bottom there's an uncliccable logo with the subtitle: ``\emph{results by Bing}''. \\
 	Search toolbar present in pages above is different from homepage (\ref{homepage}) and others subpages (\ref{primapaginainterna}, \ref{secondapaginainterna}, \ref{terzapaginainterna}). The first one is located below the central wide image and the search button is an hand lens icon (bad); subpages has search bar above the central image, this time with the proper \emph{Search} button. Either search leads to a results page (Figure \ref{fig:search-simple}). In case of an unsuccessful search the page correctly warns the user with a message (Figure \ref{fig:search-no-results}).
 
@@ -265,56 +286,93 @@ Below there're the analysis of three subpages, the first one sublevel is 1 and t
 	\label{fig:search-no-results} 
 	\end{figure}
 
-	Advanced search (Figure \ref{fig:search-advanced} ) is accessible starting from a simple search result page (Figure \ref{fig:search-simple}), this makes advanced search optional and is a positive mark. 
+	Advanced search (Figure \ref{fig:search-advanced}) is reachable starting from a simple search result page (Figure \ref{fig:search-simple}), this makes advanced search optional and is a positive mark. Notable is the restricted number of selection filters but it isn't explained what exactly means \emph{safe search} in a goverment website. Good thing is the search button instead of the hand lens icon.
+
 
 	\begin{figure}[h]
 	\centering 
 	\centerline{\includegraphics[width=2\columnwidth]{search-advanced}}
-	\caption[Advanced search results page]{Advanced search results page}
+	\caption[Advanced search page]{Advanced search page}
 	\label{fig:search-advanced} 
 	\end{figure}
 
 
 	\subsection{Back button}
+	Back button is propely working as expected in every page and never opens the previous page in a detatched window.
 
-	\subsection{Spash page}
-	splash screen quandi si lascia il web serv con link esterni
+	\subsection{Splash page}
+	\label{splashpage}
+	During the first site visit there aren't any splash screens or annoying registation form, nevertheless a splash screen (Figure \ref{fig:splash-screen}) appears when user click on a link to an exteral web site, in this case a message warns user that is leaving the \thesite{} web server. This message is very annoying and it goes against the web conventions.
 
+	\begin{figure}[h]
+	\centering 
+	\centerline{\includegraphics[width=1\columnwidth]{splash-screen}}
+	\caption[Splash screen]{Splash screen appears when leaving \thesite{}.}
+	\label{fig:splash-screen} 
+	\end{figure}
 
 	\subsection{Ads}
+	This isn't a commercial website, nevertheless the site proposes a lot of content so it's common to have some ads to specific theme (e.g., join military forces, taxes caluclator). Ads are correctly located in the right column and gracefully integrates with the site look. Althought there aren't awful effects like blinking, rotating or on the move texts, it has to be said that sometimes there're cliccable images ads, sometimes there're uncliccable imgs detatched from the link button. This clearly confuse users that usually try to click over images.
+
 	\subsection{404}
+	Inserting an unvalid url the webiste correctly shows an error message (Figure \ref{fig:not-found-page}). This scenario could happen when a user follows a broken link, the site properly invite to go to the homepage using the back button or by the proposed link. This 
+
+	\begin{figure}[h]
+	\centering 
+	\centerline{\includegraphics[width=1.5\columnwidth]{404}}
+	\caption[Not found page]{Not found page message.}
+	\label{fig:not-found-page} 
+	\end{figure}
 
 %----------------------------------------------------------------------------------------
 %	SUMMARY
 %----------------------------------------------------------------------------------------
 
-\section{SUMMARY}
+\clearpage
+\section{Summary}
+	\begin{centering}
+	{ \huge \bfseries grade: 7.5/10 \\[0.3cm] }
+	\end{centering}
+	Considering the huge size of the site, the fews defects identified and the complexity and variety of content delived by \thesite{} i consider it as a well designed website. Except the excessive height of some pages, defects detected are not so heavy to spoil navigation.
 
 
 %----------------------------------------------------------------------------------------
 %	LIST OF FIGURES
 %----------------------------------------------------------------------------------------
 
-\section{List of figures}
+\section{List of figures with file references}
+Table \ref{tab:list-of-figures} associate url's with images used in this document:
 
-% %----------------------------------------------------------------------------------------
-% %	
-% %----------------------------------------------------------------------------------------
-
-% \section{}
-
-
-
-%----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
-
-% \renewcommand{\refname}{\spacedlowsmallcaps{References}} % For modifying the bibliography heading
-
-% \bibliographystyle{unsrt}
-
-% \bibliography{sample.bib} % The file containing the bibliography
-
-%----------------------------------------------------------------------------------------
+\begin{table}[ht]
+	\caption{List of figures with file references} % title of Table
+	\centering % used for centering table
+	\begin{centering}
+	\begin{tabular}{l c c} % centered columns (4 columns)
+		\hline\hline %inserts double horizontal lines
+		Figure & File name & URL \\ [0.5ex] % inserts table 
+		%heading
+		\hline % inserts single horizontal line
+			Homepage & homepage-entire-sections.png & \href{http://www.whitehouse.gov/}{link} \\ [1ex]
+			First internal page: /briefing-room & 1-internal-page-entire.png & \href{http://www.whitehouse.gov/briefing-room}{link}\\ [1ex]
+			Second internal page: /briefing-room/legislation & 2-internal-page-visible.png & \href{http://www.whitehouse.gov/briefing-room/legislation}{link} \\ [1ex]
+			Third internal page: /issues/technology & 3-internal-page-visible.png & \href{http://www.whitehouse.gov/issues/technology}{link} \\ [1ex]
+			feedback-form & 3-internal-page-detail.png & \href{http://www.whitehouse.gov/issues/technology}{link} \\ [1ex]
+			Screen divided homepage & homepage-entire-screen.png & \href{http://www.whitehouse.gov/}{link} \\ [1ex]
+			Simple search results page & search-simple.png & \href{http://stackoverflow.com/questions/2640111/url-latex-linebreak-problem}{link} \\ [1ex]
+			No results search results page & search-no-results.png & \href{http://search.whitehouse.gov/search?utf8=%E2%9C%93&query=lorem+ipsum&m=&affiliate=wh&commit=Search}{link} \\ [1ex]
+			Advanced search page & search-advanced.png & \href{http://search.whitehouse.gov/search/advanced?affiliate=wh&enable_highlighting=true&per_page=20&query=obama}{link} \\ [1ex]
+			Splash screen & splash-screen.png & \href{http://www.whitehouse.gov/issues/technology}{link} \\ [1ex]
+			Not found page & 404.png & \href{http://www.whitehouse.gov/admin}{link} \\ [1ex]
+			 % &  &  \\ [1ex]
+			 % &  &  \\ [1ex]
+			 % &  &  \\ [1ex]
+			 % &  &  \\ [1ex]
+			 % &  &  \\ [1ex]
+			 % &  &  \\ [1ex]
+		\hline %inserts single line
+	\end{tabular}
+	\end{centering}
+	\label{tab:list-of-figures} % is used to refer this table in the text
+\end{table}
 
 \end{document}
